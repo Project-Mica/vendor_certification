@@ -12,4 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/certification/overlay
+PRODUCT_PACKAGES += \
+    CertifiedPropsOverlay
